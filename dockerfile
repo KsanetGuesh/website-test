@@ -3,4 +3,4 @@ COPY index.html /usr/share/nginx/html
 COPY logoimage.png /usr/share/nginx/html
 COPY dockerfile /usr/share/nginx/html
 EXPOSE 80 443 
-CMD ["ndinx","-g",demon off;""]
+CMD ["nginx","-g",daemon off;"]
